@@ -1,0 +1,208 @@
+/* -- Desktop --  */
+/* ------------  */
+/* First Wrapper  */
+
+
+
+@media only screen and (min-width: 769px) {
+
+
+.wrapper1 {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.wrapper1 .wrapper1-texts {
+    padding: 100px 0 0 125px ;
+}
+.wrapper1 .wrapper1-texts h1 {
+    font-size: 3vw;
+    line-height: 1.2;
+}
+.wrapper1 .wrapper1-texts p {
+    font-size: 1.2vw;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    margin: 20px 0;
+    color: hsl(233, 8%, 62%);
+}
+.wrapper1 .wrapper1-background {
+    position: relative;
+} 
+.wrapper1 .wrapper1-background .phones-background{
+    width: 60vw;
+    position: relative;
+    top: -186px;
+    left: 70px;
+}
+.wrapper1 .wrapper1-background .phones-image{
+    width: 50vw;
+    position: absolute;
+    left: 244px;
+    top: -139px;
+}
+
+/* -- Desktop --  */
+/* ------------  */
+/* Second Wrapper  */
+
+
+
+.wrapper2 {
+    margin: 40px 0 20px 0;
+    background-color: hsl(220, 16%, 96%);
+    padding: 125px;
+    text-align: left;
+    line-height: 1.4; 
+}
+.wrapper2 h2{
+    font-size: 2vw;
+    margin: 15px 0;
+    color: hsl(233, 26%, 24%);
+}
+.wrapper2 h3 {
+    color: hsl(233, 26%, 24%);
+    font-size: 1.5vw;
+    margin: 25px 0;
+}
+.wrapper2 p {
+    font-size: 1.21vw;
+    color: hsl(233, 8%, 62%);
+}
+
+.wrapper2 .wrapper2-flex {
+    gap: 25px;
+    margin: 45px 0 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* -- Desktop --  */
+/* ------------  */
+/* Third Wrapper  */
+
+
+.wrapper3{
+    margin: 125px;
+}
+
+.wrapper3 .title {
+    margin: 30px 0;
+    font-size: 3.3vw;
+    color: hsl(233, 26%, 24%);
+}
+}
+
+
+/* -- MOBILE --  */
+/* ------------  */
+/* First Wrapper  */
+
+
+@media only screen and (min-width: 360px) and (max-width: 768px){
+
+    
+    .wrapper1 .wrapper1-texts {
+        padding: 0 30px;
+        text-align: center;
+         margin: 700px 0 0 0;   
+         line-height: 1.5;
+    }
+    .wrapper1 .wrapper1-texts h1{
+        margin: 0 0 20px 0;
+        font-size: 45px;   
+        /* width: 450px; */
+        display: inline-block;
+        color: hsl(233, 26%, 24%);
+    }
+    .wrapper1 .wrapper1-texts p {
+        margin: 0 0 20px 0;  
+        color: hsl(233, 8%, 62%);
+    }
+
+    .wrapper1-background {
+        width: 100%;
+        position: relative;
+        background-color: red;
+    }
+    .wrapper1-background .phones-image, .phones-background{
+        position: absolute;
+        width: 100%;
+        object-fit:contain;
+        top: -950px;
+        height: 600px;
+    }
+    .wrapper1-background .phones-background{
+        object-fit:cover;
+    }
+
+    /* ---- MOBILE ----  */
+    /* ---------------  */
+    /* Second Wrapper  */
+
+
+    .wrapper2 {
+        line-height: 1.5;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .wrapper2 h2 {
+        margin: 160px auto 30px auto;
+        font-size: 30px;
+        width: 200px;       
+    }
+    .wrapper2 p {
+        margin: 0 auto 50px auto;
+        width: 350px;
+        color: hsl(233, 8%, 62%);
+    }
+
+    .wrapper2-flex img {
+        margin: 0 0 20px 0;
+    } 
+    .wrapper2-flex h3 {
+        margin: 0 0 20px 0;
+    } 
+
+
+    /* ---- MOBILE ----  */
+    /* ---------------  */
+    /* Third Wrapper  */
+
+
+
+    
+    .wrapper3 .title {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 5.3vw;
+        color: hsl(233, 26%, 24%);
+    }
+
+
+
+    
+    
+    
+
+
+
+    
+
+    
+
+    
+    
+    
+    
+
+
+}
+
+
+
+
+
+

@@ -1,0 +1,129 @@
+/* Desktop  */
+/* ------  */
+
+
+@media only screen and (min-width: 769px) {
+
+    .desktopNavbar nav {
+        z-index: 1;
+        /* position: relative; */
+        width: 100%;
+        position: fixed;  
+        top: 0;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #fff;
+    }
+    .desktopNavbar nav .logo {
+        height: 35px;
+    }
+    .desktopNavbar nav ul {
+        display: flex;
+    
+    }
+    
+    .desktopNavbar nav ul li {
+        list-style: none;
+        margin: 0 10px;
+    }
+    .desktopNavbar nav ul li p {
+        padding: 15px 0;
+        color: hsl(233, 8%, 62%);
+        align-items: center;
+        border-bottom: 2px solid transparent;
+        
+       
+    }
+    .desktopNavbar nav ul li p:hover {
+        padding-bottom: 15px;
+        border-bottom: 2px solid hsl(136, 65%, 51%);
+       
+    }
+    
+    .mobileNavbar {
+        display: none;
+    }
+
+}
+
+
+
+/* Mobile  */
+/* -----  */
+
+@media only screen and (min-width: 360px) and (max-width: 768px){
+
+    .desktopNavbar {
+        display: none;
+    }
+    .mobileNavbar {
+        width: 100%;
+        background-color: lightgray;
+    }
+    
+    .mobileNavbar nav {
+        z-index: 1;
+        background-color: white;
+        width: 100%;
+        position: fixed;  
+        top: 0;
+        min-height: 70px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 35%;
+    }
+
+
+    /* Mobile Navbar Popup  */
+
+    .mobileNavbarPopup {
+        position: absolute;
+        background-color: #fff;
+        margin-top: 600px;
+        width: 350px;
+        border-radius: 7px;
+        
+    }
+    .mobileNavbarPopup  .icon-close{
+        position: absolute;
+        margin: -16px 9px -37px 314px;        
+    }
+    
+    .mobileNavbarPopup  ul li {
+        margin: 35px 0;
+        text-align: center;
+        
+    }
+    
+    .mobileNavbarPopup ul li p {
+        cursor: pointer;
+        color: hsl(233, 8%, 62%);
+        align-items: center;
+        border-bottom: 2px solid transparent; 
+        display: inline-block;
+       
+    }
+
+
+    .mobileNavbarPopup ul li p:hover {
+        border-bottom: 2px solid hsl(136, 65%, 51%);
+       
+    }
+
+    .hide {
+        display: none;
+    }
+    
+    
+    
+
+    
+}
+
+
+
+
+

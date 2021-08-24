@@ -1,0 +1,88 @@
+@media only screen and (min-width: 769px) {
+
+footer {
+    
+    line-height: 1.8;
+    color: hsl(233, 8%, 62%);
+    padding: 50px;
+    display: flex;
+    background-color: hsl(233, 26%, 24%);
+    justify-content: space-around;
+}
+
+footer .logos-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .socialMedia-logos img{
+    margin: 0 5px;
+}
+
+footer .contacts-flex{
+    display: flex;
+    gap: 70px;
+}
+
+footer .contacts-flex a{
+    text-decoration: none;
+    display: block;
+    color: hsl(233, 8%, 62%);
+}
+
+footer .contacts-flex a:hover {
+    color: hsl(136, 65%, 51%);
+}
+
+footer .button-info p{
+    margin: 15px 0;
+}
+
+footer  .contacts-flex p, img {
+    cursor: pointer;
+}
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px){
+
+    footer {
+        text-align: center;
+        line-height: 1.8;
+        color: hsl(233, 8%, 62%);
+        padding: 50px;
+        background-color: hsl(233, 26%, 24%);
+    }
+
+    footer .socialMedia-logos {
+        text-align: center;
+        margin: 20px auto;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+
+        
+    }
+
+    footer .contacts-flex a{
+        color: hsl(233, 8%, 62%);
+        text-decoration: none;
+        display: block;
+    }
+
+    footer .contacts-flex a:hover {
+        color: hsl(136, 65%, 51%);
+    }
+
+    footer .button-info .invButton {
+        margin: 20px 0;
+    }
+
+    footer  .contacts-flex a, img {
+        cursor: pointer;
+    }
+
+}
+
+
