@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Easybank/static/css/main.7a2c29b4.chunk.css",
-    "main.js": "/Easybank/static/js/main.f4f4af06.chunk.js",
-    "main.js.map": "/Easybank/static/js/main.f4f4af06.chunk.js.map",
+    "main.css": "/Easybank/static/css/main.6e39cae1.chunk.css",
+    "main.js": "/Easybank/static/js/main.45841b04.chunk.js",
+    "main.js.map": "/Easybank/static/js/main.45841b04.chunk.js.map",
     "runtime-main.js": "/Easybank/static/js/runtime-main.23c2f3fe.js",
     "runtime-main.js.map": "/Easybank/static/js/runtime-main.23c2f3fe.js.map",
     "static/js/2.66c3d2b8.chunk.js": "/Easybank/static/js/2.66c3d2b8.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.6a574ae8.chunk.js": "/Easybank/static/js/3.6a574ae8.chunk.js",
     "static/js/3.6a574ae8.chunk.js.map": "/Easybank/static/js/3.6a574ae8.chunk.js.map",
     "index.html": "/Easybank/index.html",
-    "static/css/main.7a2c29b4.chunk.css.map": "/Easybank/static/css/main.7a2c29b4.chunk.css.map",
+    "static/css/main.6e39cae1.chunk.css.map": "/Easybank/static/css/main.6e39cae1.chunk.css.map",
     "static/js/2.66c3d2b8.chunk.js.LICENSE.txt": "/Easybank/static/js/2.66c3d2b8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.23c2f3fe.js",
     "static/js/2.66c3d2b8.chunk.js",
-    "static/css/main.7a2c29b4.chunk.css",
-    "static/js/main.f4f4af06.chunk.js"
+    "static/css/main.6e39cae1.chunk.css",
+    "static/js/main.45841b04.chunk.js"
   ]
 }
